@@ -7,6 +7,11 @@ int add(int a, int b) {
     return a + b;
 }
 
+// Function to subtract two numbers
+int subtract(int a, int b) {
+    return a - b;
+}
+
 int main() {
     int num1, num2;
     
@@ -19,6 +24,7 @@ int main() {
     
     // Displaying result
     cout << "Sum: " << add(num1, num2) << endl;
+    cout << "Difference: " << subtract(num1, num2) << endl;
     
     return 0;
 }
